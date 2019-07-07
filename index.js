@@ -2,5 +2,5 @@
 let driver = {};
 
 function updateDriverWithKeyAndValue(obj, key ,value){
-  return 
+  return Object.assign({},{[key]: value});
 }
