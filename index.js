@@ -9,7 +9,10 @@ function destructivelyUpdateDriverWithKeyAndValue(obj, key ,value){
   obj.key = value;
   return obj;
 }
-function deleteFromDriverByKey(pbj,key){
+
+
+
+function destructivelyDeleteFromDriverByKey(pbj,key){
   delete obj.key;
   return obj;
 }
